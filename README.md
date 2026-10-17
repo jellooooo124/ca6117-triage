@@ -3,8 +3,9 @@ title: CA6117 Hospital-at-Home Triage API
 emoji: 🩺
 colorFrom: blue
 colorTo: green
-sdk: docker
-app_port: 7860
+sdk: gradio
+app_file: serve.py
+python_version: "3.12"
 pinned: false
 ---
 
