@@ -1,0 +1,230 @@
+{
+  "gold_version": "retrieval_gold_v1",
+  "gold_status": "FROZEN",
+  "top_k": 3,
+  "gemini_api_calls": 0,
+  "overall": {
+    "queries": 10,
+    "precision_at_3": 0.3666,
+    "recall_at_3": 0.65,
+    "hit_rate_at_3": 0.9,
+    "mrr_at_3": 0.7333
+  },
+  "heart_failure": {
+    "queries": 5,
+    "precision_at_3": 0.3333,
+    "recall_at_3": 0.6,
+    "hit_rate_at_3": 0.8,
+    "mrr_at_3": 0.5667
+  },
+  "glycemic": {
+    "queries": 5,
+    "precision_at_3": 0.4,
+    "recall_at_3": 0.7,
+    "hit_rate_at_3": 1.0,
+    "mrr_at_3": 0.9
+  },
+  "results": [
+    {
+      "query_id": "HF-Q1",
+      "domain": "HF",
+      "concept": "Weight gain, oedema and congestion",
+      "query": "heart failure rapid weight gain ankle oedema fluid overload congestion",
+      "gold_chunk_ids": [
+        "hf_p22_c3",
+        "hf_p42_c5",
+        "hf_p43_c1"
+      ],
+      "retrieved_chunk_ids": [
+        "hf_p44_c1",
+        "hf_p22_c3",
+        "hf_p43_c1"
+      ],
+      "relevant_at_3": 2,
+      "precision_at_3": 0.6667,
+      "recall_at_3": 0.6667,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 0.5
+    },
+    {
+      "query_id": "HF-Q2",
+      "domain": "HF",
+      "concept": "Worsening heart failure",
+      "query": "worsening heart failure deterioration symptoms signs congestion",
+      "gold_chunk_ids": [
+        "hf_p42_c3",
+        "hf_p42_c5",
+        "hf_p43_c1"
+      ],
+      "retrieved_chunk_ids": [
+        "hf_p15_c1",
+        "hf_p42_c6",
+        "hf_p16_c5"
+      ],
+      "relevant_at_3": 0,
+      "precision_at_3": 0.0,
+      "recall_at_3": 0.0,
+      "hit_at_3": 0.0,
+      "mrr_at_3": 0.0
+    },
+    {
+      "query_id": "HF-Q3",
+      "domain": "HF",
+      "concept": "Patient self-care monitoring",
+      "query": "heart failure patient education self-care monitoring management",
+      "gold_chunk_ids": [
+        "hf_p71_c1"
+      ],
+      "retrieved_chunk_ids": [
+        "hf_p71_c1",
+        "hf_p72_c2",
+        "hf_p71_c3"
+      ],
+      "relevant_at_3": 1,
+      "precision_at_3": 0.3333,
+      "recall_at_3": 1.0,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 1.0
+    },
+    {
+      "query_id": "HF-Q4",
+      "domain": "HF",
+      "concept": "Long-term follow-up",
+      "query": "heart failure long-term follow-up regular assessment disease progression",
+      "gold_chunk_ids": [
+        "hf_p72_c3"
+      ],
+      "retrieved_chunk_ids": [
+        "hf_p21_c4",
+        "hf_p9_c1",
+        "hf_p72_c3"
+      ],
+      "relevant_at_3": 1,
+      "precision_at_3": 0.3333,
+      "recall_at_3": 1.0,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 0.3333
+    },
+    {
+      "query_id": "HF-Q5",
+      "domain": "HF",
+      "concept": "Multidisciplinary care and adherence",
+      "query": "heart failure multidisciplinary team patient caregiver adherence education",
+      "gold_chunk_ids": [
+        "hf_p71_c1",
+        "hf_p71_c2",
+        "hf_p71_c3"
+      ],
+      "retrieved_chunk_ids": [
+        "hf_p71_c3",
+        "hf_p69_c2",
+        "hf_p6_c3"
+      ],
+      "relevant_at_3": 1,
+      "precision_at_3": 0.3333,
+      "recall_at_3": 0.3333,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 1.0
+    },
+    {
+      "query_id": "GLY-Q1",
+      "domain": "GLY",
+      "concept": "Regular glycaemic monitoring",
+      "query": "type 2 diabetes regular monitoring biochemical parameters complications HbA1c",
+      "gold_chunk_ids": [
+        "gly_p27_c1"
+      ],
+      "retrieved_chunk_ids": [
+        "gly_p27_c1",
+        "gly_p17_c1",
+        "gly_p14_c1"
+      ],
+      "relevant_at_3": 1,
+      "precision_at_3": 0.3333,
+      "recall_at_3": 1.0,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 1.0
+    },
+    {
+      "query_id": "GLY-Q2",
+      "domain": "GLY",
+      "concept": "Hyperglycaemia signs and symptoms",
+      "query": "type 2 diabetes hyperglycaemia symptoms signs DKA HHS",
+      "gold_chunk_ids": [
+        "gly_p12_c1",
+        "gly_p19_c2",
+        "gly_p25_c3"
+      ],
+      "retrieved_chunk_ids": [
+        "gly_p19_c2",
+        "gly_p12_c1",
+        "gly_p20_c1"
+      ],
+      "relevant_at_3": 2,
+      "precision_at_3": 0.6667,
+      "recall_at_3": 0.6667,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 1.0
+    },
+    {
+      "query_id": "GLY-Q3",
+      "domain": "GLY",
+      "concept": "Hypoglycaemia recognition",
+      "query": "type 2 diabetes hypoglycaemia symptoms signs low blood glucose",
+      "gold_chunk_ids": [
+        "gly_p18_c1"
+      ],
+      "retrieved_chunk_ids": [
+        "gly_p18_c1",
+        "gly_p12_c1",
+        "gly_p12_c2"
+      ],
+      "relevant_at_3": 1,
+      "precision_at_3": 0.3333,
+      "recall_at_3": 1.0,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 1.0
+    },
+    {
+      "query_id": "GLY-Q4",
+      "domain": "GLY",
+      "concept": "Healthy diet and physical activity",
+      "query": "type 2 diabetes healthy diet physical activity lifestyle management",
+      "gold_chunk_ids": [
+        "gly_p14_c1",
+        "gly_p25_c1"
+      ],
+      "retrieved_chunk_ids": [
+        "gly_p14_c1",
+        "gly_p16_c1",
+        "gly_p9_c2"
+      ],
+      "relevant_at_3": 1,
+      "precision_at_3": 0.3333,
+      "recall_at_3": 0.5,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 1.0
+    },
+    {
+      "query_id": "GLY-Q5",
+      "domain": "GLY",
+      "concept": "Follow-up and complication monitoring",
+      "query": "type 2 diabetes follow-up review schedule monitoring complications",
+      "gold_chunk_ids": [
+        "gly_p25_c1",
+        "gly_p25_c2",
+        "gly_p27_c1"
+      ],
+      "retrieved_chunk_ids": [
+        "gly_p8_c1",
+        "gly_p27_c1",
+        "gly_p29_c1"
+      ],
+      "relevant_at_3": 1,
+      "precision_at_3": 0.3333,
+      "recall_at_3": 0.3333,
+      "hit_at_3": 1.0,
+      "mrr_at_3": 0.5
+    }
+  ]
+}

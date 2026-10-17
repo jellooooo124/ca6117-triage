@@ -1,0 +1,7 @@
+.git
+.venv
+frontend
+evidence
+report
+**/__pycache__
+.DS_Store

@@ -1,0 +1,29 @@
+{
+  "date_sgt": "2026-10-08T16:40:10.817342+08:00",
+  "source_zip": "CA6117_Final_Submission_2026-10-05.zip",
+  "modified_backend_files_sha256": {
+    "llm.py": "cfc407623303ed2fece9f341f51bbf9ca95eccdfef4a692c4b22ff855907bb13",
+    "reasoning.py": "fb472552141b1082c9d37005f00b7a2cfa2c21c0eeec1af1a1c20531952525fe"
+  },
+  "steps": {
+    "Python requirements install": "PASS",
+    "Fresh backend and six RAG assets": "PASS",
+    "23-case simulation regression": "PASS",
+    "Frozen retrieval benchmark": "PASS",
+    "Frontend npm ci": "PASS",
+    "Frontend production build": "PASS",
+    "Frontend page and backend health proxy": "PASS",
+    "Frontend evaluation API proxy": "PASS"
+  },
+  "all_passed": true,
+  "retrieval_metrics": {
+    "queries": 10,
+    "precision_at_3": 0.3666,
+    "recall_at_3": 0.65,
+    "hit_rate_at_3": 0.9,
+    "mrr_at_3": 0.7333
+  },
+  "python_version": "3.13.16",
+  "node_version": "v20.19.0",
+  "npm_version": "10.8.2"
+}

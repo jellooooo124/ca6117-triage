@@ -1,0 +1,8 @@
+category,tests,passed,pass_rate_percent
+Authority validation,1,1,100.0
+Citation validation,2,2,100.0
+Dependency failure,2,2,100.0
+End-to-end safety,11,11,100.0
+Human oversight,4,4,100.0
+Multi-agent conflict,2,2,100.0
+Reasoning validation,1,1,100.0

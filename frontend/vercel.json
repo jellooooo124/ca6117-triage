@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://astrid124-ca6117-triage.hf.space/api/:path*" },
+    { "source": "/health", "destination": "https://astrid124-ca6117-triage.hf.space/health" }
+  ]
+}

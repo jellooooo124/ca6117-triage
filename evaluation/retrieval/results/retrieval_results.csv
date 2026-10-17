@@ -1,0 +1,11 @@
+query_id,domain,concept,query,gold_chunk_ids,retrieved_chunk_ids,relevant_at_3,precision_at_3,recall_at_3,hit_at_3,mrr_at_3
+HF-Q1,HF,"Weight gain, oedema and congestion",heart failure rapid weight gain ankle oedema fluid overload congestion,hf_p22_c3;hf_p42_c5;hf_p43_c1,hf_p44_c1;hf_p22_c3;hf_p43_c1,2,0.6667,0.6667,1.0,0.5
+HF-Q2,HF,Worsening heart failure,worsening heart failure deterioration symptoms signs congestion,hf_p42_c3;hf_p42_c5;hf_p43_c1,hf_p15_c1;hf_p42_c6;hf_p16_c5,0,0.0,0.0,0.0,0.0
+HF-Q3,HF,Patient self-care monitoring,heart failure patient education self-care monitoring management,hf_p71_c1,hf_p71_c1;hf_p72_c2;hf_p71_c3,1,0.3333,1.0,1.0,1.0
+HF-Q4,HF,Long-term follow-up,heart failure long-term follow-up regular assessment disease progression,hf_p72_c3,hf_p21_c4;hf_p9_c1;hf_p72_c3,1,0.3333,1.0,1.0,0.3333
+HF-Q5,HF,Multidisciplinary care and adherence,heart failure multidisciplinary team patient caregiver adherence education,hf_p71_c1;hf_p71_c2;hf_p71_c3,hf_p71_c3;hf_p69_c2;hf_p6_c3,1,0.3333,0.3333,1.0,1.0
+GLY-Q1,GLY,Regular glycaemic monitoring,type 2 diabetes regular monitoring biochemical parameters complications HbA1c,gly_p27_c1,gly_p27_c1;gly_p17_c1;gly_p14_c1,1,0.3333,1.0,1.0,1.0
+GLY-Q2,GLY,Hyperglycaemia signs and symptoms,type 2 diabetes hyperglycaemia symptoms signs DKA HHS,gly_p12_c1;gly_p19_c2;gly_p25_c3,gly_p19_c2;gly_p12_c1;gly_p20_c1,2,0.6667,0.6667,1.0,1.0
+GLY-Q3,GLY,Hypoglycaemia recognition,type 2 diabetes hypoglycaemia symptoms signs low blood glucose,gly_p18_c1,gly_p18_c1;gly_p12_c1;gly_p12_c2,1,0.3333,1.0,1.0,1.0
+GLY-Q4,GLY,Healthy diet and physical activity,type 2 diabetes healthy diet physical activity lifestyle management,gly_p14_c1;gly_p25_c1,gly_p14_c1;gly_p16_c1;gly_p9_c2,1,0.3333,0.5,1.0,1.0
+GLY-Q5,GLY,Follow-up and complication monitoring,type 2 diabetes follow-up review schedule monitoring complications,gly_p25_c1;gly_p25_c2;gly_p27_c1,gly_p8_c1;gly_p27_c1;gly_p29_c1,1,0.3333,0.3333,1.0,0.5

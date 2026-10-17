@@ -1,0 +1,22 @@
+{
+  "test_time_sgt": "2026-10-08T16:53:15.750604+08:00",
+  "test_type": "workflow_integration",
+  "python_environment": "Gate 1 installed environment",
+  "fresh_virtual_environment": false,
+  "execution_mode": "simulation",
+  "gemini_calls": 0,
+  "checks": {
+    "Backend healthy + both RAG asset sets": "PASS",
+    "Standard workflow": "PASS",
+    "Planning / execution trace / state transitions": "PASS",
+    "HF + Glycemic guideline grounding": "PASS",
+    "Human checkpoint: APPROVE": "PASS",
+    "Human decision audit": "PASS",
+    "Deterministic SAFE_STOP": "PASS",
+    "SAFE_STOP blocks APPROVE and EDIT": "PASS",
+    "SAFE_STOP allows ESCALATE": "PASS",
+    "Six-field audit contract": "PASS",
+    "Evaluation API: 23/23": "PASS"
+  },
+  "result": "PASS"
+}
